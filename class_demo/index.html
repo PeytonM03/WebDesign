@@ -5,30 +5,57 @@
 <title>Fun Test Experience</title>
 <meta name="author" content="pmckinley">
 <meta name="keywords" content="demo, learning, practice, webdesign">
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .link {
+        font-size:smaller;
+    }
+
+    #funny-text {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    }
+</style>
 
 </head>
 <body style="background-color: chocolate;">
+    <div style="background-color: aliceblue;">
 <h1>Fun Test Experiment</h1>
+<p>This is just filled text that is also part of my div</p>
+</div>
 <table>
     <tr style="background-color: blue;">
 <th> Text thingies</th>
-<th>Non-test thingies</th>
+<th>Non-text thingies</th>
     </tr>
     <tr>
-<td><p style="color: rgb(70, 0, 43);">Lorem <strong> impsum </strong> is placceholder <b>text </b></p></td>
+<td><p style="color: rgb(70, 0, 43);">Lorem <strong> impsum </strong> is placceholder <b>text</b> <span style="background-color:blueviolet">publishing industries</span>
+</p>
+
+
+</td>
 <td>Image</td>
 <td style="padding: left 15px;">
     <img src="images/belugawhale.png" width="300" alt="this is a picutre of a beluga whale">
 </td>
     </tr>
     <tr>
-        <td style="font-size: larger;" style="text">
+        <td id="funny-text">
             <ol>
-                <li> <a href="https://www.w3schools.com/#gsc.tab=0">w3schools</a></li>
+                <li class="link"><a href="https://www.w3schools.com/#gsc.tab=0">w3schools</a></li>
                 <li></li>
             </ol>
         </td>
         <td>embedded things</td>
+        <!-- TH and TD are the same thing, both cells-->
+        <!-- A table tag is used to create a table while a TR makes a header, row, body, or footer -->
     </tr>
 </table>
    
