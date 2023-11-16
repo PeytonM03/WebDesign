@@ -1,0 +1,92 @@
+body {
+    background-color:rgb(112, 124, 141);
+}
+
+.nav {
+    list-style-type: none;
+    background-color:lightsteelblue;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.nav li { 
+    float: left;
+}
+
+ul.nav li a {
+ display:block;
+ padding: 8px 16px; 
+ color: black;
+ text-decoration: none;
+ font-size: 20px;
+}
+
+.grid-container {
+ display: grid;
+ grid-gap: 10px;
+ grid-template-columns: 25% 50% 25%;
+}
+
+.grid-item {
+    background-color:rgb(152, 167, 187);
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.navmenu {
+    grid-row: 1;
+    grid-column: 1 / span 3;
+}
+
+.main-image {
+    grid-column: 1/ span 3;
+    grid-row: 2;
+    
+
+}
+/* For middle columns grid-column: 2/ span 2 grid-row:3;*/
+.main1 {
+    grid-column: 1/ span 1;
+    grid-row: 3;
+}
+
+.main2 {
+    grid-column: 1/ span 1;
+    grid-row: 4;
+}
+
+
+
+.main4 {
+ grid-column: 2;
+ grid-row: 3;
+ background-color: lightslategray;
+}
+
+.main5 {
+    grid-column: 2;
+    grid-row: 4;
+    background-color: lightslategray;
+}
+
+.main6 {
+    grid-column: 2;
+    grid-row: 5;
+    background-color: lightslategray;
+}
+
+.sidenav {
+    grid-column: 3;
+    grid-row: 3/ span 2;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(178, 194, 214);
+}
